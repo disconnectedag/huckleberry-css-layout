@@ -4,12 +4,16 @@
   "main": "index.js",
   "author": "Joshua Comeau",
   "scripts": {
-    "start": "live-server --port=9000 --host=localhost ."
+    "start": "live-server --port=9000 --host=localhost .",
+    "dev": "live-server --port=9000 --host=localhost . nodemon"
   },
   "dependencies": {
     "live-server": "1.2.1"
   },
   "engines": {
     "npm": ">5"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
   }
 }
